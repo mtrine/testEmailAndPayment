@@ -14,7 +14,7 @@ export class ZalopayService {
       key2: 'trMrHtvjo6myautxDUiAcYsVtaeQ8nhf',
       endpoint: 'https://sb-openapi.zalopay.vn/v2/create',
       return_url: 'youtube.com',
-      callback_url: '/zalopay/callback',
+      callback_url: 'https://qcgateway.zalopay.vn/openinapp?order=eyJ6cHRyYW5zdG9rZW4iOiJBQ01lX045MDZ1UEZhMlVENFRGMk9jQVEiLCJhcHBpZCI6MjU1NH0=/zalopay/callback',
     };
 
     const embed_data = {
